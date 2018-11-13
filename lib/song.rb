@@ -44,14 +44,12 @@ end
 def self.artist_count
 count = {}
 @@artists.each {|x| count[x]? count[x] +=1 : count[x] = 1}
-count 
+count
 end
 
 end
 
-song1 = Song.new("oy", "hayde", "rap")
-song2 = Song.new("poy", "mhgyde", "rannb")
-song3 = Song.new("soy", "haghj", "javadi")
+
 
 # binding.pry
 # 0000
